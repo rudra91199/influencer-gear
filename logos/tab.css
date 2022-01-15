@@ -1,0 +1,315 @@
+@media screen and (max-width:992) {
+    /* ------------------
+Navigation Style
+------------------- */
+
+.header{
+font-family: 'Poppins', sans-serif;
+margin:20px 30px;
+}
+
+.title{
+font-size: 24px;
+margin: 50px 0;
+font-weight: bold;
+
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+}
+
+ul{
+display: flex;
+margin: 50px 0;
+
+}
+
+li{
+list-style: none;
+margin: 0px 5px;
+
+font-size: 20px;
+border-radius: 10px;
+
+}
+
+li a{
+text-decoration: none;
+color: rgba(0, 0, 0, 0.897);
+padding: 10px;
+font-weight: 450;
+
+
+}
+
+li:hover{
+transform: scale(1);
+background-color: white;
+
+
+}
+
+
+.icon-style{
+margin: 5px 5px;
+font-size: 20px;
+
+}
+
+.icon-style:hover{
+transform: scale(1);
+}
+
+main{
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+margin:20px 30px ;
+font-weight: 450;
+}
+
+/* -----------------------
+Introduction Style
+----------------------------- */
+
+.camera{
+border: 0;
+}
+
+.background{
+display: none;
+}
+
+.camera-img{
+height: 250px;
+width: 250px;
+}
+
+.influencer-intro{
+display: flex;
+justify-content: space-between;
+}
+
+.intro{
+width: 400px;
+margin-top: 40px;
+height: 280px;
+}
+
+
+.intro-title{
+font-size:24px ;
+font-weight: bold;
+}
+
+
+
+button{
+border: none;
+background-color:#E02C6D;
+color: white;
+height: 50px;
+width: 150px;
+border-radius: 40px;
+font-size: 14px;
+font-weight: 550;
+margin-top: 30px;
+
+}
+
+button:hover{
+transform: scale(1);
+box-shadow: 0px 0px;
+}
+
+.arrow-color{
+color: white;
+font-size: 14px;
+margin-left: 5px;
+}
+
+/* ---------------
+Logo Style
+------------------- */
+
+.logo-container{
+margin: 80px 20px 80px 20px;
+
+
+}
+hr{
+width: 95%;
+opacity: 0.2;
+}
+
+.logos{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-row-gap: 30px;
+padding: 20px 0;
+
+}
+
+/* ---------------------
+Collection Style
+--------------------------- */
+
+.collection-container{
+margin: 0;
+}
+
+.collection-title{
+font-size: 28px;
+font-weight: bold;
+text-align: center;
+margin:40px 0;
+}
+
+
+.collection-cards{
+display: grid;
+grid-gap: 20px;
+grid-template-columns: repeat(2,1fr);
+margin-bottom: 40px;
+
+}
+
+.card{
+box-sizing: border-box;
+box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.171);  
+}
+
+.card-margin{
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.card-image img{
+width: 370px;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+.card-title{
+font-size: 28px;
+
+}
+
+.card-info{
+width: 45%;
+
+}
+
+.card-price{
+font-weight: 400;
+}
+
+.star-fill{
+color: orange;
+}
+.star-empty{
+color: gray;
+margin-right: 10px;
+}
+
+.all-products{
+text-align: center;
+}
+
+.see-more{
+text-decoration: none;
+color:#E02C6D;
+font-size: 18px;
+
+}
+
+
+.product-description{
+color: #787885; 
+font-size: 14px;
+}
+
+/* -----------------------
+Website Stats Style
+----------------------------- */
+
+.products-statistics{
+margin: 40px 70px 0px 70px;
+height: 40vh;
+
+}
+
+.stats-title{
+text-align: center;
+font-size: 24px;
+margin-bottom: 70px;
+font-weight: bold;
+
+}
+
+.stats-title span{
+color:#E02C6D;
+
+}
+
+.stats-container{
+display: flex;
+justify-content: space-between;
+}
+
+.stats-number{
+font-size: 56px;
+color:#c21655ce;
+font-weight: bold;
+
+}
+
+.stats{
+text-align: center;
+}
+
+.stats-info{
+color: #787885;
+font-weight: 600;
+}
+
+/* -----------------
+Footer Style
+--------------------- */
+
+.footer{
+font-family: 'Poppins', sans-serif;
+text-align: center;
+height: 800px;
+background-color: rgb(0, 0, 44);
+
+display: block;
+
+
+
+}
+
+.footer-title{
+color: white;
+
+margin-bottom: 20px;
+font-size: 32px;
+font-weight: 600;
+}
+
+footer p{
+color: rgb(176, 176, 253);
+}
+
+.social-icons{
+margin-top: 20px;
+color:#E02C6D;
+}
+
+.icons{
+margin: 20px 10px;
+font-size: 24px;
+}
+
+}
